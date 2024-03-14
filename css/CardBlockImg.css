@@ -1,0 +1,107 @@
+:rootBlock4{
+    --index: calc(1vw + 1vh);
+}
+
+.Block4{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+      }
+
+
+.img_Block4_Main{
+    position: static;
+    
+}
+.Block4_info:hover {
+    background-color: #ccc;
+}
+.Block4_info{
+    
+    width: 40vw;
+    height: 70vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: -1;   
+    margin: 0px 10px 0px 10px;
+    border-radius: 30px;
+    background-size: cover;
+    
+}
+
+
+.CardInfo{
+    font-family: 'nunito';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #FDFDFD66; 
+    width: 100%;
+    color: #FDFDFD;
+    line-height: 20px;
+    padding: 20px 10px 30px 10px;
+    letter-spacing: 0.05em;
+}
+
+.CardInfo h3{
+    font-size: 1.5vw;
+    font-weight: 600;  
+}
+.CardInfo p{
+    font-size: 0.8vw;
+    font-weight: 500;
+    line-height: 15px;
+}
+.starInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+     
+}
+.wrapperStarInfo{
+    font-family: 'nunito';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    width: 25%; 
+    height: 5vh;
+    background-color: #FDFDFD66; 
+    margin-top: 50px;
+    border-radius: 10px 0px 0px 10px;
+    
+
+}
+.titleBlock4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleBlock4 h3{
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: 'nunito';
+    margin-bottom: 5vh;
+ }
+
+ .titleBlock4 button{
+    margin-top: 5vh;
+    
+ }
+.coast{
+    background-color: #FDFDFD66; 
+    margin-left: 25px;
+    padding: 6px 18px 6px 18px;
+    border-radius:4px;
+    font-size: 1.2vw;
+    font-weight: 700;   
+}

@@ -1,0 +1,74 @@
+:rootBlock3{
+    --index: calc(1vw + 1vh);
+}
+.InfoTour{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 735px;
+}
+
+.coastInfo{
+    
+    line-height: 23px;
+    font-family: 'nunito';
+    --img-sizeBlock3: calc(var(--index) * 3);
+    width: var(--img-sizeBlock3 * 0.5);
+
+}
+.coastInfo_derection{
+    padding: 30px;
+}
+.textBlock3{
+    font-family: 'nunito';
+    font-size: 35px;
+}
+.coastInfo h3{
+    font-family: 'nunito';
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+}
+.coastInfo h4{
+    font-family: 'nunito';
+    font-size: 15px;
+    /*padding: 10px 0px 30px 0px;*/
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    font-weight: 800;
+}
+.coastInfo p{
+    font-family: 'nunito';
+    font-size: 13px;
+    /*padding: 10px 0px 30px 0px;*/
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+
+.item_derection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item_derection img{
+    padding: 20px;
+    padding-right: 25px;
+    
+}
+.coastInfo button{   
+    width: 13vw;
+    border-radius: 4px;
+}
+.img_SizeBlock3{
+    --img-sizeBlock3: calc(var(--index) * 8.5);
+    width: var(--img-sizeBlock3 * 0.5);
+    height: var(--img-sizeBlock3);
+}
+.img_Block3{
+    padding: 0px 30px 0px 40px;
+}

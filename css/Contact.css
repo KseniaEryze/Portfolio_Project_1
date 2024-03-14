@@ -1,0 +1,47 @@
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFDFD;
+    padding: 50px;
+    margin-bottom: -120px;
+    z-index:1;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: -5px -10px 6px #3a3a3a15;
+}
+
+.titleContact h3{
+    font-size: 2vw;
+    padding: 10%;
+    padding-left: 0px;
+    background-color: #FDFDFD;
+    font-family: 'nunito'; 
+    line-height: 45px;
+    font-size: 2vw;
+}
+
+.ContactInput{
+    width: 60%;
+    background-color: #FDFDFD;
+    font-family: 'nunito'; 
+    line-height: 18px;
+    font-size: 0.9vw;
+}
+.ContactInput p{
+   margin-top: 15px;
+    background-color: #FDFDFD;
+    font-family: 'nunito'; 
+    line-height: 18px;
+    font-size: 0.9vw;
+}
+
+    .ContactInput input{
+        width: 45%;
+        height: 20%;
+        background-color:#F3F5F4;
+        margin-right: 15px;
+    }
+.ContactInput button{
+    width: 45%;
+}
